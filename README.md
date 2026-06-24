@@ -16,17 +16,14 @@ ESP32_CAM_Sketches/
 │   └── blindspot_cam_RIGHT.ino    ← Flash to RIGHT camera → 10.92.111.190
 └── blindspot_cam_REAR/
     └── blindspot_cam_REAR.ino     ← Flash to REAR camera  → 10.92.111.189
-```
-
----
 
 ## Quick Start
 
 ### 1. Edit WiFi credentials in `blindspot_config.h`
-```cpp
+cpp
 #define WIFI_SSID  "YOUR_WIFI_NAME"
 #define WIFI_PASS  "YOUR_WIFI_PASSWORD"
-```
+
 
 ### 2. Verify the gateway IP in each `.ino` file
 ```cpp
