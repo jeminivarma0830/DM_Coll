@@ -4,11 +4,10 @@ Three separate Arduino sketches, one per camera position.
 All share `blindspot_config.h` which contains all endpoint handlers,
 camera init, WiFi setup, and mDNS — linked to the Python backend.
 
----
 
 ## Directory Structure
 
-```
+
 ESP32_CAM_Sketches/
 ├── blindspot_config.h              ← Shared code (handlers, camera init, WiFi)
 ├── blindspot_cam_LEFT/
